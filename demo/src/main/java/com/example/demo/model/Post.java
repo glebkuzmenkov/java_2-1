@@ -11,6 +11,7 @@ public class Post {
     {
         this.text = text;
         this.creationDate = creationDate;
+        this.likes = 0;
     }
 
     public Integer getLikes()
